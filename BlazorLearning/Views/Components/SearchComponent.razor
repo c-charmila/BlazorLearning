@@ -1,0 +1,17 @@
+﻿@using BlazorLearning.Views.Base;
+
+<BasicComponent State="State" ErrorMessage="@ErrorMessage">
+    <ContentComponent>
+        <div align="center">
+            <TextBoxBase Count="10">
+                <MoreThanZero>
+                    <label> Value is more than zero</label>
+                </MoreThanZero>
+                <ZeroOrBelow>
+                    <label>Value is zero or below</label>
+                </ZeroOrBelow>
+            </TextBoxBase>
+            <ButtonBase></ButtonBase>
+        </div>
+    </ContentComponent>
+</BasicComponent>
